@@ -13,6 +13,8 @@ const flavorTextArr = [
   "Runs Budget Rounds Late Wipe",
 ]
 
+//todo preact
+
 export default function Home() {
   const meta = "Ironic this site isn't cyaned themed"
   const twitter_url = "https://twitter.com/CyanF_"

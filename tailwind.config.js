@@ -7,8 +7,6 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["inter"],
-        roboto: ["roboto"],
-        ubuntu: ["ubuntu"],
       },
       scale: {
         300: "3",
