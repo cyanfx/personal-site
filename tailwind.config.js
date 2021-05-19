@@ -24,12 +24,16 @@ module.exports = {
       fontWeight: {
         extraBlack: 1100,
       },
+      margin: {
+        ".7": "0.175rem",
+      },
     },
   },
   variants: {
     extend: {
       translate: ["hover"],
       outline: ["active"],
+      filter: ["hover"],
     },
   },
   plugins: [],
