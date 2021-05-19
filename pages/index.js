@@ -18,8 +18,10 @@ const flavorTextArr = [
 ]
 
 export const meta = "Ironic this site isn't cyaned themed"
-export const twitter_url = "https://twitter.com/CyanF_"
+export const twitter_url = "https://twitter.com/certainly_blue"
 export const github_url = "https://github.com/cyanfx"
+export const vrc_url =
+  "https://vrchat.com/home/user/usr_7babfcf1-5c1e-4070-826d-98dff69822c4"
 
 export default function Home() {
   const [flavorTextIndex, setFlavorTextIndex] = useState(0)

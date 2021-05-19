@@ -1,6 +1,6 @@
 import Head from "next/head"
 import TextTransition, { presets } from "react-text-transition"
-import { meta, twitter_url, github_url } from "../pages/index"
+import { meta, twitter_url, github_url, vrc_url } from "../pages/index"
 
 export function Header() {
   return (
@@ -16,7 +16,7 @@ export function Header() {
 function VRCButton() {
   return (
     <a
-      href="https://vrchat.com/home/user/usr_7babfcf1-5c1e-4070-826d-98dff69822c4"
+      href={vrc_url}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={"Go to my VRChat Profile"}>
